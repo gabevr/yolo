@@ -1,0 +1,71 @@
+
+
+https://www.youtube.com/watch?v=10joRJt39Ns
+
+
+TESTES
+#1 - Maçãs, Canecas, Cavalos
+     (Apple Coffee_cup Horse)
+#2 - Gatos, Cachorros, Dinossauros, Corujas, Papagaio
+     ()
+
+
+# Sites e referências originais
+  > https://pjreddie.com/darknet/yolo/ 
+
+# Inspiração
+  > https://www.youtube.com/channel/UCyn1QFyonOr-NKVtX3gw0vw (Ivan Goncharov)
+  > https://www.youtube.com/channel/UCrydcKaojc44XnuXrfhlV8Q (The AI Guy)
+
+# Sobre o YOLO / Darknet
+  > https://www.profissionaisti.com.br/2018/07/yolo-um-sistema-para-deteccao-de-classes-de-objetos-em-tempo-real/
+  > VIDEO DO AUTOR (Joseph Redmon) na TED Talks https://www.youtube.com/watch?v=Cgxsv1riJhI
+  > Como o YOLO funciona https://machinethink.net/blog/object-detection-with-yolo/
+  > explicação rapida: https://www.reddit.com/r/computervision/comments/gaah8f/what_is_the_yolo_algorithm_introduction_to_you/
+  > Explicação boa de como realmente funciona: http://christopher5106.github.io/object/detectors/2017/08/10/bounding-box-object-detectors-understanding-yolo.html
+  > Analisando o paper do YOLO: https://towardsdatascience.com/yolo-made-simple-interpreting-the-you-only-look-once-paper-55f72886ab73
+  > https://dzone.com/articles/understanding-object-detection-using-yolo#:~:text=YOLO%20divides%20up%20the%20image,box%20actually%20encloses%20some%20object.
+  > https://appsilon.com/object-detection-yolo-algorithm/
+  > PAPERS do YOLOv1 e YOLOv2: https://pjreddie.com/media/files/papers/yolo_1.pdf e https://pjreddie.com/media/files/papers/YOLO9000.pdf
+
+# YOLOv4
+  > explicação do paper do YOLOv4: https://www.youtube.com/watch?v=CtjZFkO5RPw
+
+# Sobre CUDA
+  > https://canaltech.com.br/hardware/O-que-e-a-CUDA/
+
+# Sobre YOLO - prática e algumas explicações
+  > https://www.dobitaobyte.com.br/yolo-deteccao-de-objetos-em-tempo-real/
+  > http://www.programmersought.com/article/8090549070/ (estado da arte em 2018)
+
+# Teoria e funcionamento
+  > https://www.youtube.com/watch?v=6n2XxuKs45M - (Um overview do YOLO - Gabriel Simões) - Machine Learning Porto Alegre
+  > https://www.youtube.com/watch?v=BhwppCyV2iI - Deep Learning Brasil 
+
+# Google Colab - dicas e detalhes importantes
+  > https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d
+  > https://www.kdnuggets.com/2018/02/essential-google-colaboratory-tips-tricks.html
+
+# Ideias
+  > https://mozanunal.com/2019/08/yoloColabDemo/ (detecção em video e função pra detecção)
+  > https://medium.com/@artinte7/real-time-object-detection-using-yolo-upon-google-colab-in-5-minutes-fd65a4903df5
+  > Adicionar fundo no texto no OpenCV - https://stackoverflow.com/a/60675284
+    (https://stackoverflow.com/questions/60674501/how-to-make-black-background-in-cv2-puttext-with-python-opencv)
+
+# Sobre o blob (OpenCV)
+  > https://www.pyimagesearch.com/2017/11/06/deep-learning-opencvs-blobfromimage-works/
+  > dnn.blobFromImages -> https://docs.opencv.org/3.4/d6/d0f/group__dnn.html#ga0b7b7c3c530b747ef738178835e1e70f
+
+# YOLO com OpenCV
+  > https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
+
+# OpenCV DNN Suporte a GPU
+  > https://forums.fast.ai/t/opencv-4-2-0-has-cuda-dnn-backend/61003
+  > https://www.pyimagesearch.com/2020/02/03/how-to-use-opencvs-dnn-module-with-nvidia-gpus-cuda-and-cudnn/
+
+# MONTANDO O DATASET
+
+  > https://www.youtube.com/watch?v=_4A9inxGqRM - Creating a YOLOv3 Custom Dataset | Quick and Easy | 9,000,000+ Images (The AI Guy)
+  > Fazer o download do Open Images Dataset -> https://medium.com/@c.n.veeraganesh/how-to-prepare-your-own-customized-dataset-using-open-images-dataset-v4-8dfce9b9e147 
+  > Arquivo para fazer a conversão dos annotation - convert_annotations.py (https://github.com/theAIGuysCode/OIDv4_ToolKit)
+  > Sobre o formato de anotação aceito pelo YOLO - https://github.com/AlexeyAB/Yolo_mark/issues/60

@@ -1,15 +1,9 @@
 
-
-https://www.youtube.com/watch?v=10joRJt39Ns
-
-
 TESTES com Modelos:
 #1 - Maçãs, Canecas, Cavalos
      (Apple Coffee_cup Horse)
 #2 - Gatos, Cachorros, Dinossauros, Corujas, Papagaio
      ()
-
-
 
 
 # Sites e referências originais
@@ -64,6 +58,12 @@ TESTES com Modelos:
 # OpenCV DNN Suporte a GPU
   > https://forums.fast.ai/t/opencv-4-2-0-has-cuda-dnn-backend/61003
   > https://www.pyimagesearch.com/2020/02/03/how-to-use-opencvs-dnn-module-with-nvidia-gpus-cuda-and-cudnn/
+
+# Códigos
+  > https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial
+  > https://www.youtube.com/watch?v=10joRJt39Ns
+
+
 
 # MONTANDO O DATASET
 
